@@ -1,0 +1,39 @@
+:root{
+    --color-1: rgb(27, 23, 37);
+    --color-2: rgb(83, 75, 98);
+    --color-3: rgb(164, 153, 179);
+    --color-4: rgb(208, 188, 213);
+    --color-5:rgb(34, 108, 224);
+}
+
+.rows-artists{
+    background-color: var(--color-1);
+    color: var(--color-4);
+    display: flex;
+    flex-wrap: wrap;
+    flex:1 0 100%;
+
+}
+.columns-artists {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 4px var(--color-4) dashed;
+    border-radius: 30px 30px 30px 30px;
+    background-color: var(--color-1);
+    padding: 10px;
+  /* box-shadow: 5px 10px darkgrey;*/
+}
+
+.img-artists{
+    width: 100%;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-items{
+    align-items: center;
+}
